@@ -1,0 +1,116 @@
+/* The side navigation menu */
+.sidenav {
+    background-color: #343A40;
+    height: 100%; /* 100% Full-height */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 15vh; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+.orange {
+    color: orangered !important;
+}
+
+.sidenavClosed {
+    width: 0;
+}
+.sidenavOpen {
+    width: 100%;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    font-family: 'Exo', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 8px 8px 20px 8px;
+    text-decoration: none;
+    font-size: 5vh;
+    color: orangered;
+    transition: 0.3s;
+    border-bottom: 1px solid #E3E3E3;
+
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    text-decoration: none;
+    color: #35AA71;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.close {
+    top: 3vh;
+    right: 6vw;
+    position: absolute;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+   opacity: 1 !important;
+}
+.close::before, .close::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    background: red;
+}
+.close::before {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.close::after {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.close.black::before, .close.black::after {
+    height: 8px;
+    margin-top: -4px;
+}
+@media only screen and (max-width: 991px) {
+    .justified.icon {
+        top: 12px;
+        right: 10vw;
+        color: white;
+        position: absolute;
+        margin-left: 2px;
+        margin-top: 6px;
+        width: 25px;
+        height: 12px;
+        border-top: solid 2px currentColor;
+        border-bottom: solid 2px currentColor;
+    }
+
+    .justified.icon:before {
+        content: '';
+        position: absolute;
+        top: 4px;
+        left: 0;
+        width: 25px;
+        height: 12px;
+        border-top: solid 2px currentColor;
+        border-bottom: solid 2px currentColor;
+    }
+
+}
+.font {
+    font-family: 'Exo', sans-serif;
+}
