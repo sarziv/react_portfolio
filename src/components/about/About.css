@@ -1,9 +1,4 @@
-#root {
-    overflow: hidden;
-    padding: 0;
-    width: 100vw;
-    height: 100vh;
-}
+
 .simple-trans-main > div {
     font-family: 'Exo', sans-serif;
     cursor: pointer;

@@ -1,0 +1,19 @@
+.project {
+    font-family:'Exo', sans-serif;
+    height: auto;
+    width: auto;
+    padding-top: 15vh;
+}
+.projectHeader{
+    color: orangered;
+    text-align: center;
+    font-size: 6vh;
+}
+.galleryLink{
+    color: orangered;
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+}
+.galleryLink:hover{
+    color: orangered;
+}

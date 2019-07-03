@@ -15,6 +15,9 @@ function FrontEnd() {
             <div className="smallerText">
                 Bootstrap
             </div>
+            <div className="smallerText">
+                Mobile responsive design
+            </div>
         </div>
     );
 

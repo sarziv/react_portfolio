@@ -4,7 +4,7 @@ function Welcome() {
     return (
         <div className="orange">Hello!
             <div className="smallerText">
-                Here you can find about me.
+                Here some information about me.
             </div>
             <div className="smallerText">
                 Technologies I love and use!
