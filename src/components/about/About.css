@@ -23,10 +23,30 @@
     font-size: 4vh;
 }
 .click{
-    z-index: 10;
-    background-color: red;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.counter{
+    font-size: 20px !important;
+}
+.nextArrow{
+    background-image: url("../../image/baseline_arrow_forward_black_18dp.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width: 50px;
+    height: 60px;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+    margin-left: 5px;
+    left: 48vw;
+}
+.nextClick{
+    font-size: 20px;
+    z-index: 2;
     position: absolute;
     bottom: 0;
-    width: 100px;
-    height: 100px;
+    right: 10px;
 }
