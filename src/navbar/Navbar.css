@@ -32,7 +32,6 @@
     font-size: 5vh;
     color: orangered;
     transition: 0.3s;
-    border-bottom: 1px solid #E3E3E3;
 
 }
 
@@ -49,12 +48,12 @@
 }
 
 .close {
-    top: 3vh;
+    top: 2vh;
     right: 6vw;
     position: absolute;
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
    opacity: 1 !important;
 }
 .close::before, .close::after {

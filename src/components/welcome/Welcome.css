@@ -1,0 +1,39 @@
+.welcome {
+    background-color: white;
+    color: orangered;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+}
+.textDiv{
+    padding-top: 15vh;
+    height: 50vh;
+}
+
+.welcomeText{
+    font-size: 6vh;
+}
+.welcomeTextSmall{
+    font-size: 3vh;
+}
+.imageBottom{
+    overflow: hidden;
+    height: 50vh;
+    width: 100vw;
+}
+@media screen and (max-width: 990px) {
+    img {
+        overflow: hidden;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+}
+@media screen and (min-width: 990px) {
+img {
+    overflow: hidden;
+    position: relative;
+    bottom: 50px;
+}
+}

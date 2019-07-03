@@ -1,0 +1,32 @@
+#root {
+    overflow: hidden;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.simple-trans-main > div {
+    font-family: 'Exo', sans-serif;
+    cursor: pointer;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20vh;
+    color: white;
+    font-size: 8vh;
+    will-change: transform, opacity;
+    text-shadow: 0px 2px 40px #00000020, 0px 2px 5px #00000030;
+}
+.smallerText{
+    font-size: 4vh;
+}
+.click{
+    z-index: 10;
+    background-color: red;
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 100px;
+}
