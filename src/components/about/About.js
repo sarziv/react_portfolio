@@ -1,6 +1,5 @@
 import React, { useState, useCallback } from 'react';
 import { useTransition, animated } from 'react-spring';
-import Fab from '@material-ui/core/Fab';
 import './About.css';
 
 const pages = [
