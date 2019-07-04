@@ -3,6 +3,9 @@ import './Project.css';
 import ProjectTree from './projectTree/ProjectTree'
 import ProjectGallery from './projectGallery/ProjectGallery';
 function Project() {
+
+
+
     return (
         <div className="project">
             <div className="projectHeader">Projects Tree</div>
@@ -10,7 +13,9 @@ function Project() {
             <div className="d-flex justify-content-center"><ProjectTree/></div>
             <div className="projectHeader mt-4">Projects Gallery</div>
             <div className="mb-4">
+
                 <ProjectGallery/>
+
         </div>
         </div>
     );

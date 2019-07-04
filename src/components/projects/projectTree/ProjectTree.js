@@ -27,9 +27,9 @@ const Tree = memo(({ children, name, style, defaultOpen = false }) => {
 const ProjectTree = () => (
     <>
         <Global />
-        <Tree name="Tree" defaultClosed>
+        <Tree name="Tree" defaultOpen>
             <Tree name="PHP" defaultOpen>
-                <Tree name="Laravel" defaultOpen>
+                <Tree name="Laravel" defaultClosed>
                     <a href="https://github.com/sarziv/salary_system_backend_laravel"><Tree name="Salary_system_v3_API"></Tree></a>
                     <a href="https://github.com/sarziv/salarysystem"><Tree name="Salary_system_v2_CRUD"></Tree></a>
                     <a href="https://github.com/sarziv/Portfolio_black"><Tree name="Portfolio_black"></Tree></a>
@@ -38,23 +38,24 @@ const ProjectTree = () => (
                     <a href="https://github.com/sarziv/module"><Tree name="Laravel display Module"></Tree></a>
                     <a href="https://github.com/sarziv/coingate"><Tree name="CoinGate Crypto shop example"></Tree></a>
                 </Tree>
-                <Tree name="PHP_projects" defaultOpen>
+                <Tree name="PHP_projects" defaultClosed>
                     <a href="https://github.com/sarziv/IT_Projektas"><Tree name="Ordering and execution system"></Tree></a>
                     <a href="https://github.com/sarziv/Php_findshop"><Tree name="PHP shop finder"></Tree></a>
                     <a href="https://github.com/sarziv/php_games"><Tree name="PHP Games"></Tree></a>
                     <a href="https://github.com/sarziv/Php_reformater"><Tree name="PHP formatter"></Tree></a>
                     <a href="https://github.com/sarziv/adventofcode2018"><Tree name="PHP Advent code"></Tree></a>
                     <a href="https://github.com/sarziv/hashtag_php"><Tree name="PHP infinite recursion"></Tree></a>
+                    <a href="https://github.com/sarziv/php_droperino"><Tree name="PHP FileManager"></Tree></a>
                 </Tree>
             </Tree>
-            <Tree name="React" defaultOpen>
+            <Tree name="React" defaultClosed>
                 <a href="https://github.com/sarziv/salary_system_front_react"><Tree name="Salary_system_frontend_v3"></Tree></a>
                 <a href="https://github.com/sarziv/react_portfolio"><Tree name="React portfolio"></Tree></a>
             </Tree>
-            <Tree name="Java" defaultOpen>
+            <Tree name="Java" defaultClosed>
                 <a href="https://github.com/sarziv/sarziv.ws"><Tree name="Spring boot"></Tree></a>
             </Tree>
-            <Tree name="Scripts" defaultOpen>
+            <Tree name="Scripts" defaultClosed>
                 <a href="https://github.com/sarziv/scripts/tree/master/Bash"><Tree name="BASH"></Tree></a>
             </Tree>
         </Tree>

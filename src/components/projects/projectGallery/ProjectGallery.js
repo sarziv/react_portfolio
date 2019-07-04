@@ -21,7 +21,6 @@ const useStyles = makeStyles(theme => ({
     },
 }));
 
-
 export default function TitlebarGridList() {
     const classes = useStyles();
 
